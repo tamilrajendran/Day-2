@@ -1,0 +1,91 @@
+Variables
+Operators
+Datatypes
+Alert,prompt,confirm
+
+Variables:- It is name given to memory location.
+=> Var
+=> Let
+=> Const
+
+var: 
+It is keyword to declare Variables.
+It can be Redeclare and Reassigned.
+Ex:-
+var a = 10;
+a=20;//reassign
+var a= 30;//redeclare
+console.log(a);
+
+Let:-
+=> It is keyword to declare Variables.
+=> It can be only Reassigned.
+// Let Examples
+let b = 10;
+b=40; //reassign 
+console.log(b);
+
+Const:-
+=> It is keyword to declare Variables.
+=> It cannot be reassigned and redeclared.
+Ex:-
+const c = 10;
+console.log(c);
+
+Operators:-
+=> Airthmetic Operators: +,-,*,/,%
+=> Assignment Operators: =
+=> Conditional Operators: <,>,<=,>=,!=,!==,==,===
+=> Logical Operators: &, ||
+
+Alert:-
+alert("Click Ok to enter into the website")
+
+Propmt:-
+let result = prompt("Enter your Name ")
+console.log(result)
+
+Confirm:-
+let result1 = confirm("Are you sure enter the website")
+console.log(result1)
+
+Datatypes:-
+String, Number, Boolean,Array,Object,Bigninit,Symbol,Null,Undefined,Functions
+
+Undefined:-
+=> If a variable is declared but the value is not assigned,
+then the value of that variable is undefined.
+=> Then the datatype is also undefined.
+Example:-
+Let a;
+console.log(a);
+
+Null:-
+=> Null is a special value that represents empty or unknown values.
+=> The type of null will be an object.
+=> It is a known bug in Javascript.
+=> Javascript defines that null is equal to undefined.
+Examples:-
+Let num = null;
+console.log(num)
+console.log(typeof(num))
+
+Object:-
+=> Object is collection of properties.
+=> Object are sturctured with key value pair.
+=> Object do not have index.
+syntax:
+var/let/const objectname ={
+    keyname:value
+}
+
+Examples:-
+let person={
+    firstname:"John",
+    lastname:"Doe",
+    age:35,
+    Sex:"Male",
+    phonenumber:9078563412,
+    skills:["Javascipt","Html","CSS"]
+}
+console.log(person)
